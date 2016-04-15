@@ -1,5 +1,11 @@
+**I apologize to everyone for my slow rate of response and development recently.** This is my final semester and I am very busy. Although I usually work on AdminLTE a few hours a week, there are weeks full of exams and assignments. Thanks for your understanding.
+
 Introduction
 ============
+
+![Bower version](https://img.shields.io/bower/v/adminlte.svg)
+[![npm version](https://img.shields.io/npm/v/admin-lte.svg)](https://www.npmjs.com/package/admin-lte)
+[![Packagist](https://img.shields.io/packagist/v/almasaeed2010/adminlte.svg)](https://packagist.org/packages/almasaeed2010/adminlte)
 
 **AdminLTE** -- is a fully responsive admin template. Based on **[Bootstrap 3](https://github.com/twbs/bootstrap)** framework. Highly customizable and easy to use. Fits many screen resolutions from small mobile devices to large desktops. Check out the live preview now and see for yourself.
 
@@ -36,6 +42,12 @@ git clone https://github.com/YOUR_USERNAME/AdminLTE.git
 
 ```
 bower install admin-lte
+```
+
+**npm**
+
+```
+npm install --save admin-lte
 ```
 
 **Composer**
@@ -86,12 +98,15 @@ Todo List
 - Right to left support
 - ~~Custom pace style~~ (Done v2.3.1)
 
-Legacy Realeases
+Legacy Releases
 ----------------
 AdminLTE 1.x can be easily upgraded to 2.x using [this guide](https://almsaeedstudio.com/themes/AdminLTE/documentation/index.html#upgrade), but if you intend to keep using AdminLTE 1.x, you can download the latest release from the [releases](https://github.com/almasaeed2010/AdminLTE/releases) section above.
 
 Change log
 ----------
+
+**For the most recent change log, visit the [releases page](https://github.com/almasaeed2010/AdminLTE/releases).** We will add a detailed release notes to each new release. 
+
 **v2.3.1:**
 - Fix sidebar issue #676
 - Fix BootLint warnings and errors
