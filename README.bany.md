@@ -34,4 +34,12 @@ The modificated version from [Hedzr](https://github.com/hedzr/)
 bower install https://github.com/hedzr/AdminLTE.git --save
 ```
 
+The `master` branch:
 
+```bower.json
+{
+  "dependencies": {
+    "AdminLTE": "https://github.com/hedzr/AdminLTE.git#master"
+  },
+}
+```
