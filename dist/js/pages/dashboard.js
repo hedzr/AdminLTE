@@ -124,6 +124,7 @@ $(function () {
 
   /* Morris.js Charts */
   // Sales chart
+  if($('revenue-chart').length)
   var area = new Morris.Area({
     element: 'revenue-chart',
     resize: true,
@@ -145,6 +146,7 @@ $(function () {
     lineColors: ['#a0d0e0', '#3c8dbc'],
     hideHover: 'auto'
   });
+  if($('line-chart').length)
   var line = new Morris.Line({
     element: 'line-chart',
     resize: true,
@@ -176,6 +178,7 @@ $(function () {
   });
 
   //Donut Chart
+  if($('sales-chart').length)
   var donut = new Morris.Donut({
     element: 'sales-chart',
     resize: true,
